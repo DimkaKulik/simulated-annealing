@@ -7,12 +7,15 @@
 To run you can use 3 following variants:
 
  - ```console
-:visualization_repository$ sudo ldconfig ./lib && ./bin/res.out```
+   $ sudo ldconfig ./lib && ./bin/res.out
+   ```
  - ```console
-:visualization_repository$ export LD_LIBRARY_PATH=./lib && ./bin/res.out```
+   $ export LD_LIBRARY_PATH=./lib && ./bin/res.out
+   ```
 
  - ```console
-:visualization_repository$ make```
+   $ make
+   ```
 
 ## Contributing
 
