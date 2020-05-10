@@ -6,7 +6,8 @@
 
 To run you can use 3 following variants:
 
- - ```
+ - 
+```
 :visualization_repository$ sudo ldconfig ./lib && ./bin/res.out
 ```
 
