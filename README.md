@@ -6,13 +6,13 @@
 
 To run you can use 3 following variants:
 
- - ```:visualization_repository$ sudo ldconfig ./lib && ./bin/res.out```
+ - ```console
+:visualization_repository$ sudo ldconfig ./lib && ./bin/res.out```
+ - ```console
+:visualization_repository$ export LD_LIBRARY_PATH=./lib && ./bin/res.out```
 
- - ```
-:visualization_repository$ export LD_LIBRARY_PATH=./lib && ./bin/res.out
-```
-
- - ```:visualization_repository$ make```
+ - ```console
+:visualization_repository$ make```
 
 ## Contributing
 
