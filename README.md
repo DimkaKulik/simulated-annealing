@@ -2,6 +2,8 @@
 
 ## About this project  
 
+<img src="gifgif.gif">
+
 ## How to run?
 
 To run you can use 3 following variants:
