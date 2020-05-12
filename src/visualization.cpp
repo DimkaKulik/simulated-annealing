@@ -1,7 +1,7 @@
 #include <visualization.hpp>
 #include <annealing.hpp>
 Visualization::Visualization() :
-  main_window(sf::VideoMode::getDesktopMode(), "Salesman problem visualization", sf::Style::Default),
+  main_window(sf::VideoMode::getDesktopMode(), "Salesman problem visualization", sf::Style::Fullscreen),
   kPointColor(sf::Color::Red), kPointRadius(10), kMaxPoints(1000) {}
 
 void Visualization::run() {

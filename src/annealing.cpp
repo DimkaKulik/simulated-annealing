@@ -55,11 +55,13 @@ void Annealing::run(sf::RenderWindow& window, std::vector<sf::CircleShape>& poin
       auto prev_point = points[i].getPosition();
       auto next_point = points[i + 1].getPosition();
       sf::Vertex line[] = {sf::Vertex(prev_point), sf::Vertex(next_point)};
-
       window.draw(line, 2, sf::Lines);
     }
-    window.display();
-
+      auto p_1 = points[0].getPosition();
+      auto p_2 = points.back().getPosition();
+      sf::Vertex line[] = {sf::Vertex(p_1), sf::Vertex(p_2)};
+window.draw(line, 2, sf::Lines);
+    	window.display();
 
   }
 }

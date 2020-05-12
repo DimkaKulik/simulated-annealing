@@ -2,7 +2,8 @@
 
 ## About this project  
 
-<img src="gifgif.gif">
+<img src="animation1.gif">
+<img src="animation2.gif">
 
 ## How to run?
 
